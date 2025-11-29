@@ -1,0 +1,8 @@
+Status Bazy Danych / API:
+
+Projekt nie korzysta z usługi Firebase.
+Dane pobierane są z zewnętrznego REST API: https://rickandmortyapi.com/
+
+Zaimplementowano:
+1. Pobieranie danych (GET requests)
+2. Persystencję danych (Tryb Offline) przy użyciu Shared Preferences zamiast bazy Firestore.
