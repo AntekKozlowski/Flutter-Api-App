@@ -51,8 +51,8 @@ Wymagane zainstalowane Flutter SDK.
 
 1.  Sklonuj repozytorium:
     ```bash
-    git clone [https://github.com/TWOJA_NAZWA_UZYTKOWNIKA/NAZWA_REPOZYTORIUM.git](https://github.com/TWOJA_NAZWA_UZYTKOWNIKA/NAZWA_REPOZYTORIUM.git)
-    cd NAZWA_REPOZYTORIUM
+    git clone https://github.com/AntekKozlowski/Flutter-Api-App.git
+    cd Flutter-Api-App
     ```
 
 2.  Pobierz zależności:
