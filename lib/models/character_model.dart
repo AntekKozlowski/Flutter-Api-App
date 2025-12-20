@@ -5,7 +5,7 @@ class Character {
   final String species;
   final String gender;
   final String image;
-  final String origin; // 6. pole
+  final String origin;
 
   Character({
     required this.id,
@@ -25,7 +25,19 @@ class Character {
       species: json['species'],
       gender: json['gender'],
       image: json['image'],
-      origin: json['origin']['name'],
+      origin: json['origin']['name'] ?? 'Unknown', // Safety check
     );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'name': name,
+      'status': status,
+      'species': species,
+      'gender': gender,
+      'image': image,
+      'origin': {'name': origin},
+    };
   }
 }
